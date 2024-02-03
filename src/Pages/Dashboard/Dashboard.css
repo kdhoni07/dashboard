@@ -1,0 +1,82 @@
+.dashboardpage {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+
+  border: 5px solid #204e79;
+  background-color: #f9fbfd;
+}
+.sidemenuanddashboard {
+  display: flex;
+  flex: 1;
+  gap: 10px;
+}
+.dashboard {
+  display: flex;
+  flex-direction: column;
+
+  width: calc(100vw - 240px);
+  height: calc(100vh - 50px);
+}
+.dashboardone {
+  height: 50px;
+  background-color: #f9fbfd;
+}
+.dashboardsecond {
+  flex: 1;
+
+  margin-bottom: 10px;
+  display: flex;
+  gap: 10px;
+}
+.secondone {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  background-color: #ffffff;
+}
+.secondtwo {
+  flex: 1;
+  background-color: #ffffff;
+}
+.secondthree {
+  padding: 20px;
+  flex: 2;
+  background-color: #ffffff;
+}
+.dashboardthird {
+  flex: 1;
+
+  margin-bottom: 10px;
+  display: flex;
+  gap: 10px;
+}
+.dashboardthirdone {
+  padding: 20px;
+  flex: 3;
+  background-color: #ffffff;
+}
+.dashboardthirdtwo {
+  flex: 1;
+  background-color: #ffffff;
+  padding: 20px;
+}
+.secondonelist {
+  flex: 1;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  display: flex;
+  gap: 20px;
+  padding-top: 40px;
+}
+.secondonelist .icon {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  border-radius: 5px;
+}

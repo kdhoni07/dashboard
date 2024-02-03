@@ -1,0 +1,44 @@
+.facilitypage {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+
+  border: 5px solid #204e79;
+  background-color: #f9fbfd;
+}
+.sidemenuanddashboard {
+  display: flex;
+  flex: 1;
+  gap: 10px;
+}
+.facility {
+  display: flex;
+  flex-direction: column;
+
+  width: calc(100vw - 240px);
+  height: calc(100vh - 50px);
+}
+.facilityone {
+  height: 50px;
+  background-color: #f9fbfd;
+  padding-top: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  padding-left: 20px;
+}
+.serverkeysecond {
+  height: 60%;
+  margin-bottom: 10px;
+  background-color: #ffffff;
+  padding: 20px;
+}
+.passwordsecondone {
+  font-weight: 500;
+  padding-bottom: 20px;
+}
+.serverkey {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}

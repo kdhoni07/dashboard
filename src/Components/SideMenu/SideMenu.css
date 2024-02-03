@@ -1,0 +1,47 @@
+.sidemenu {
+  background-color: #f9fbfd;
+  width: 230px;
+}
+.picture {
+  height: 150px;
+
+  display: flex;
+  align-items: center;
+
+  padding-left: 10px;
+  gap: 10px;
+}
+.picture .image {
+  width: 100px;
+  height: 100px;
+  background-color: #e5e6e8;
+  border-radius: 10px;
+}
+.sidebar {
+  padding-top: 80px;
+  display: flex;
+  flex-direction: column;
+  background-color: #f9fbfd;
+}
+.sidebartext {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  text-decoration: none;
+  padding-left: 20px;
+  color: #000000;
+  font-size: 18px;
+}
+.icon {
+  color: #204e79;
+}
+.active {
+  background-color: #204e79;
+  color: white;
+}
+
+.active .icon {
+  /* background-color: #204e79; */
+  color: white;
+}
